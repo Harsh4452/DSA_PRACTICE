@@ -1,4 +1,4 @@
-public class SearchInSortedArray {
+public class FindFirstAndLastIndex {
     public int[] searchRange(int[] nums, int target) {
         int start_idx = -1;
         int last_idx = -1;
@@ -20,7 +20,7 @@ public class SearchInSortedArray {
     public static void main(String[] args) {
         int[] nums={5,1,4,6,6,7};
         int target=6;
-        SearchInSortedArray sol=new SearchInSortedArray();
+        FindFirstAndLastIndex sol=new FindFirstAndLastIndex();
         int result[]=sol.searchRange(nums, target);
         for(int i=0;i<result.length;i++){
             System.out.print(result[i]+" ");
